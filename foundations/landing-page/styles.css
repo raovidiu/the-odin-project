@@ -1,3 +1,6 @@
+.body {
+	display: flex;
+}
 
 .flex-container {
 	display: flex;
@@ -25,14 +28,35 @@ a:link {
 	color: white;
 }
 
-.container_2 {
-	display: flex;
-	background-color: #1F2937;
-	color: white;
-}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #1F2937;
+	color: white;
+	padding: 10px;
+}
+
+.item_4 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+.item_3 {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.item_2 {
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+.item_1 {
+	grid-column-start: 1;
+	grid-column-end: 1;
 }
