@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
 }
 
-#awesome {
+.awesome {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -47,8 +47,38 @@ body {
 
 .button {
     background-color: #3882F6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 5px;
 }
 
 .navigator {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
 }
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    gap: 10rem;
+}
+
+.split-container {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.navigator .nav-links {
+    display: flex;
+    gap: 40px;
+}
+
