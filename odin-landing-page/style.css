@@ -4,8 +4,7 @@ body {
     color: #333;
 }
 
-.hero,
-.footer {
+.hero {
     background-color: #1F2937;
 }
 
@@ -25,8 +24,7 @@ body {
     color: #F9FAF8;
 }
 
-.calltoaction,
-button {
+.calltoaction {
     background-color: #3882F6;
 }
 
@@ -41,4 +39,16 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.navigator {
+    display:flex;
 }
